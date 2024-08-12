@@ -1,0 +1,46 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  border-bottom: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+footer {
+  background-color: rgba(43, 48, 53, 1);
+}
+.forms {
+  background-color: rgb(43, 48, 53);
+}
+.forms input,
+.forms textarea {
+  background-color: rgb(33, 37, 41);
+  border: 1px solid rgb(73, 80, 87);
+}
+.forms input::placeholder,
+.forms textarea::placeholder {
+  color: gray;
+}
+.forms span {
+  color: #dee2e6;
+  background-color: rgba(43, 48, 53, 1);
+  border-color: rgba(73, 80, 87);
+}
+img {
+  width: 100% !important;
+  max-height: 30vh !important;
+  object-fit: cover !important;
+}
